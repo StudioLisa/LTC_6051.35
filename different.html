@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>My HTML test page </title>
+
+</head>
+
+<body>
+
+<h1>Heading</h1>
+<!-- a comment saying what the heading is -->
+
+
+<p>paragraph</p>
+<!-- text between the ps gets printed -->
+
+<p>I am happy that something that is happening
+on the screen.
+
+Previously nothing appeared.
+
+But I am not sure what it was that changed.
+</p>
+
+<p> what are the other things </p><p> that can be programmed?
+</p>
+
+<!-- Below will add a link to a newspaper  -->
+
+<p> We can hyperlink </p>
+<a href="https://www.nytimes.com"> Read the newspaper </a>
+
+
+<p>We can write <b>BOLD</b> or <i>italic</i>
+</p>
+
+<p>we can include a picture</p>
+
+
+<embed src="C:\Users\Student\Desktop\Essential Computing\ecs2_SEF\ecs2-L07\Mesa Verde Cliff Palace Ruins.jpg">
+
+<!--  The source of the picture are on the hardrive at the location below.  -->
+<!--    C:\Users\Student\Desktop\Essential Computing\ecs2_SEF\ecs2-L07    -->
+<!-- Mesa Verde Cliff Palace Ruins.jpg  -->
+
+
+<p>Maybe we can do something else</p>
+<p>Let's try to do the javascript thing.</p>
+<p>I've never done javascript at all, but there is a tutorial</p>
+<p>Let's try the tutorial</p>
+
+<!--define a button on the screen -->
+<button type="button" onclick="myFunction()">Clickable </button>
+
+<!-- button is defined above.  But the line above doesn't define what (myFunction) does -->
+
+<!-- Below define a variable and what the button does with a script (myFunction) -->
+
+<p id="variable_which_is_text">Before the click </p>
+<script>
+function myFunction() {
+    document.getElementById("variable_which_is_text").innerHTML =
+"After the click";
+}
+</script>
+
+<!-- part of that seemed crazy -->
+<!-- like what is innerHTML??? -->
+
+
+<p>Clicking the button above will change the text above </p>
+
+
+
+
+</body>
+</html>
