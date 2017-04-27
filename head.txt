@@ -1,0 +1,10 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Milky Way</h1>
+<hr>
+<p>Please pour me a glass</p>
+
+</body>
+</html
