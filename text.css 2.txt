@@ -1,12 +1,23 @@
 ﻿<!DOCTYPE html>
-<html>
+
 <head>
+<!--This is the opening tag-->
+
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+
 </head>
+<!--This is a closing tag-->
+
 <body>
+<!--This is also called a opening tag as well
 
 <h1>This is a heading</h1>
+
+
 <p>This is a paragraph.</p>
 
 </body>
-</html>
+
+<!--This is called a closing tag-->
+
+
