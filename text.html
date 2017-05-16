@@ -1,18 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+<!--Tells browser type of file-->
+
+
 <html>
+<!--This is the openeing html tag-->
+
+
 <head>
-<style>
-p {
-    text-align: center;
-    color: orange;
-} 
-</style>
-</head>
+<!--This is the openeing head tag-->
+
+<link rel="stylesheet" type="text/css" href="text.css">
+<!--This tells the browser to use a css stylesheet and here's the style sheet to use-->
+
+</head> 
+<!--This is the closing head tag-->
+
+
 <body>
+<!--This is the openeing body tag-->
 
-<p>The paragraph will not be affected by the style sheet.</p>
-<p id="para1">You will see!</p>
-<p>This is great!</p>
 
+<h1>Hello World!</h1>
+<p>W3Schools background no-repeat, set position example.</p>
+<p>Now the background image is only shown once, and positioned away from the text.</p>
+<p>This is a test using external style sheets.</p>
+
+
+
+              
 </body>
+
+<!--This is a closing body tag-->
 </html>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = alert('Hello JavaScript!');">Click Me!</button>
+
+ alert('Hello JavaScript!');
