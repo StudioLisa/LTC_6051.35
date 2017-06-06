@@ -1,33 +1,20 @@
-﻿<!DOCTYPE html>
-<!--Tells browser type of file-->
-
-
+<!DOCTYPE html>
 <html>
-<!--This is the opening html tag-->
-
-
 <head>
-<!--This is the opening head tag-->
-
-
-<link rel="stylesheet" href="file1style.css">
-
-</head> 
-<!--This is the closing head tag-->
-
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "BUG changed.";
+}
+</script>
+</head>
 
 <body>
-<!--This is the opening body tag-->
 
+<h2>JavaScript in Head</h2>
 
-<h1>Hello World!</h1>
-<p>W3Schools background no-repeat, set position example.</p>
+<p id="demo">A BUG.</p>
 
+<button type="button" onclick="myFunction()">Try it</button>
 
-              
 </body>
-<!--This is a closing body tag-->
-
-
-</html>
-
+</html> 
